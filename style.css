@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poetsen+One&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    text-align: center;
+    margin:0;
+    text-transform: uppercase;
+    padding: 0;
+}
+body{
+    font-family: "Reddit Sans", sans-serif;
+    background-color: #f39a9d;
+}
+h1{
+    background-color: #301a4b;
+    color:#f39a9d;
+    height:3rem;
+}
+.container{
+    background-color: #301a4b;
+    color:#f39a9d;
+    height:150px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 1px;
+    border-radius: 2rem;
+    letter-spacing: 0.4rem;
+    box-shadow: 5px 5px 0 #301a4b ;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    
+}
+@media(max-width: 435px){
+    h1{
+        font-size:25px;
+    }
+    .container{
+        font-size: 8px;
+        width:300px;
+        height:100px
+    }
+}
